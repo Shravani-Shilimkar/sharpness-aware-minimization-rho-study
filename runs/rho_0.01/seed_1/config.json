@@ -1,0 +1,13 @@
+{
+  "data_dir": "./data",
+  "rho": 0.01,
+  "adaptive": false,
+  "epochs": 100,
+  "batch_size": 128,
+  "lr": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "seed": 1,
+  "num_workers": 0,
+  "out_dir": "./runs/sam_rho001_seed1"
+}
