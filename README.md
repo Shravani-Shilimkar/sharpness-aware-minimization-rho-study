@@ -44,11 +44,10 @@ We report:
 │   └── loss_landscape_*.png
 ├── runs/                       # Run outputs organized by ρ and seed
 │   ├── baseline_sgd/
+│   ├── rho_0.01/
 │   ├── rho_0.05/
-│   ├── rho_0.10/
+    ├── rho_0.10/
 │   └── rho_0.20/
-│       ├── seed_1/
-│       └── seed_42/
 ├── dataset.py
 ├── experiments.py
 ├── model.py
