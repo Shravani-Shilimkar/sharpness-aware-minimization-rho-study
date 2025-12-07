@@ -13,7 +13,7 @@ from torch.optim.lr_scheduler import CosineAnnealingLR
 
 from dataset import get_cifar100_loaders, get_cifar100c_loaders
 from model import resnet18_cifar
-from sam_optimizer import SAM   
+from sam import SAM   
 
 
 # ---------------------------------------------------------
