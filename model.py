@@ -170,8 +170,7 @@ def resnet18_cifar():
     return ResNet(BasicBlock, [2, 2, 2, 2], num_classes=100)
 
 
-# This block only runs if you execute this file directly (e.g., `python model.py`)
-# It's a "sanity check" to make sure the model can be built and run.
+
 if __name__ == '__main__':
     print("--- Testing ResNet-18 for CIFAR-100 ---")
     

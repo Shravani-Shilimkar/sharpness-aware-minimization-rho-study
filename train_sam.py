@@ -10,7 +10,6 @@ import torchvision
 import torchvision.transforms as transforms
 from torch.optim.lr_scheduler import CosineAnnealingLR
 
-# Ensure sam.py is in the directory and correctly named
 from sam import SAM
 
 # ============================================================
